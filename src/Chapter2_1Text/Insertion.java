@@ -2,7 +2,7 @@ package Chapter2_1Text;
 
 import edu.princeton.cs.algs4.In;
 
-public class Insertion {
+public class Insertion {  //插入排序
     public static void sort(Comparable[] a){
         //将a[]按升序排列
         int N=a.length;
