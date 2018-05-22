@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class California {
+    //Exercise 2.5.16
     public static class CandidateComparator implements Comparator<String>{
         private static final String ORDER="RWQOJMVAHBSGZXNTCIEKUPDYFL";
 

@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.Arrays;
 
 public class FileSorter {
+    //Exercise 2.5.28，从命令行接受一个目录名并打印出按照文件名排序后的所有文件
     public static void main(String[] args){
         File directory=new File(args[0]);
         if(!directory.exists()){

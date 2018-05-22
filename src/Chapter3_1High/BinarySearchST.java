@@ -1,4 +1,4 @@
-package Chapter3_1Text;
+package Chapter3_1High;
 
 import edu.princeton.cs.algs4.Queue;
 
@@ -42,6 +42,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
         keys[i]=key;
         vals[i]=val;
         N++;
+        assert check();
     }
     public void delete(Key key){
         //Exercise 3.1.16
@@ -56,10 +57,11 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
             keys[N]=null;
             vals[N]=null;
         }
+        assert check();
     }
     public Key min(){return keys[0];}
     public Key max(){return keys[N-1];}
-    public Key select(int k){return keys[k];}   //找出排名为k的键
+    public Key select(int k){return keys[k];}  //找出排名为k的键
     public Key ceiling(Key key){ //找出大于等于该键的最小键
         int i=rank(key);
         return keys[i];
@@ -86,5 +88,40 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
         if(contains(hi))
             q.enqueue(keys[rank(hi)]);
         return q;
+    }
+    //Exercise 3.1.29
+    public Iterable<Key> keys(){
+        return keys(min(),max());
+    }
+    public void deleteMin(){
+        delete(min());
+    }
+    public void deleteMax(){
+        delete(max());
+    }
+    //Exercise 3.1.30
+    private boolean check(){
+        return isSorted() && rankCheck();
+    }
+    private boolean isSorted(){
+        for(int i=1;i<size();i++){
+            if(keys[i].compareTo(keys[i-1])<0){
+                return false;
+            }
+        }
+        return true;
+    }
+    private boolean rankCheck(){  //检验一个新的键是否插入合适位置的基本操作是排名(rank)和选择(select)
+        for(int i=0;i<size();i++){
+            if(i!=rank(select(i))){
+                return false;
+            }
+        }
+        for(int i=0;i<size();i++){
+            if(keys[i].compareTo(select(rank(keys[i])))!=0){
+                return false;
+            }
+        }
+        return true;
     }
 }

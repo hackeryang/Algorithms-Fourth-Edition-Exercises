@@ -1,4 +1,4 @@
-package Chapter3_1Text;
+package Chapter3_1Low;
 
 import edu.princeton.cs.algs4.Queue;
 
@@ -18,7 +18,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
         else return null;
     }
     public boolean isEmpty(){return N==0;}
-    public int rank(Key key){  //找出小于指定键的键的数量
+    public int rank(Key key){
         int lo=0,hi=N-1;
         while(lo<=hi){
             int mid=lo+(hi-lo)/2;
@@ -59,7 +59,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
     }
     public Key min(){return keys[0];}
     public Key max(){return keys[N-1];}
-    public Key select(int k){return keys[k];}   //找出排名为k的键
+    public Key select(int k){return keys[k];}
     public Key ceiling(Key key){ //找出大于等于该键的最小键
         int i=rank(key);
         return keys[i];
