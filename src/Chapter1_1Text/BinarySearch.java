@@ -6,7 +6,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 
-public class BinarySearch {
+public class BinarySearch {  //二分查找算法（重要）
     public static int rank(int key,int[] a){
         //数组必须为有序的
         int lo=0;

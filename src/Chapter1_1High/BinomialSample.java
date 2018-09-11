@@ -1,6 +1,6 @@
 package Chapter1_1High;
 
-public class BinomialSample {
+public class BinomialSample {  //二项分布发生k次的概率
     /*
     * 使用一个二维数组来存储各项二项分布的概率
     * 行代表重复N次实验，列代表发生k次，所以在下面循环条件中需要j<=i

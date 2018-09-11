@@ -2,7 +2,7 @@ package Chapter1_3Text;
 
 import java.util.Iterator;
 
-public class Bag<Item> implements Iterable<Item> {
+public class Bag<Item> implements Iterable<Item> {  //背包
     private Node first; //链表的首节点
     private class Node{
         Item item;

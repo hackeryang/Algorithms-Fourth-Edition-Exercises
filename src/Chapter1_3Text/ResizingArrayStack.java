@@ -2,7 +2,7 @@ package Chapter1_3Text;
 
 import java.util.Iterator;
 
-public class ResizingArrayStack<Item> implements Iterable<Item> {
+public class ResizingArrayStack<Item> implements Iterable<Item> {  //下压栈的实现（后进先出）
     private Item[] a=(Item[]) new Object[1]; //栈元素
     private int N=0; //元素数量
     public boolean isEmpty(){return N==0;}

@@ -1,6 +1,6 @@
 package Chapter1_1Text;
 
-public class SqrtNewton {
+public class SqrtNewton {  //利用牛顿迭代法求平方根
     public static double sqrt(double c){ //c为要开方的数，如2则计算根号2
         if(c<0) return Double.NaN;
         double err=1e-15; //接近于0的数

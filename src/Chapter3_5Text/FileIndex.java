@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.*;
 
 import java.io.File;
 
-public class FileIndex {
+public class FileIndex {  //文件索引，将文件中的一个单词和出现过该单词的所有文件构成的SET对象关联起来形成反向索引
     public static void main(String[] args){
         ST<String,SET<File>> st=new ST<String,SET<File>>();  //单词及包含该单词的所有文件集合
         for(String filename:args){

@@ -9,7 +9,7 @@ public class LinkedListExercise6 {
             return "item: "+item;
         }
     }
-    public Node remove(Node first,String key){
+    public Node remove(Node first,String key){  //删除链表中所有item值为key的链表项，在remove()方法中接受一条链表和字符串key作为参数
         Node newFirst=new Node();
         newFirst.next=first;
 
@@ -55,7 +55,7 @@ public class LinkedListExercise6 {
             System.out.println(current2.item);
             current2=current2.next;
         }
-        System.out.println(current2.item); //因为前面while循环只会循环到链表倒数第二项，最后一项的next为null所以不会被println出来，所以在这里要再println出链表最后一项
+        System.out.println(current2.item);  //因为前面while循环只会循环到链表倒数第二项，最后一项的next为null所以不会被println出来，所以在这里要再println出链表最后一项
         System.out.println("------");
     }
 }

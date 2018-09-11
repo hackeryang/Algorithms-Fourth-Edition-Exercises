@@ -1,7 +1,7 @@
 package Chapter2_2Text;
 
 public class MergeBU {
-    private static Comparable[] aux; //归并所需的辅助数组
+    private static Comparable[] aux; //归并所需的辅助数组，多次遍历整个数组，根据子数组大小进行两两归并，四四归并，八八归并一直下去。每下一轮中子数组的大小会翻倍
     public static void merge(Comparable[] a,int lo,int mid,int hi){
         //将a[lo..mid]和a[mid+1..hi]归并
         int i=lo,j=mid+1;

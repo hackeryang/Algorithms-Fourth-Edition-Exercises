@@ -1,6 +1,6 @@
 package Chapter1_1Low;
 
-public class ArraySwap {
+public class ArraySwap {  //矩阵转置
     public static void main(String[] args){
         int[][] a={{1,2,3},{4,5,6}};
         int[][] temp=new int[a[0].length][a.length]; //三行二列

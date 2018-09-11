@@ -25,14 +25,14 @@ public class LinearProbingHashST<Key,Value> {  //基于线性探测的符号表
             if(keys[i]!=null)
                 t.put(keys[i],vals[i]);  //将原有键值对放到新的线性探测散列表中
         }
-        keys=t.keys;  //将原有散列表键值对的属性迁移到新散列表中
+        keys=t.keys;  //将新散列表的键数组和值数组的引用赋值给原散列表引用，从而覆盖掉原散列表引用指向的键和值数组，即把原有散列表键值对的属性迁移到新散列表中
         vals=t.vals;
         M=t.M;
     }
     public void put(Key key,Value val){
         if(N>=M/2) resize(2*M);  //当占用空间超过一半时，将容量M加倍
         int i;
-        for(i=hash(key);keys[i]!=null;i=(i+1)%M){  //在键不为空时，如果一位一位向后查找，找到了对应的键，则修改键的值
+        for(i=hash(key);keys[i]!=null;i=(i+1)%M){  //先从散列表的键数组中的键哈希值索引处key[hash(key)]向后一位一位遍历（从该索引开始是因为该位置处本应该放这个键，如果已经放了别的键就向后顺延放置），如果找到了对应的键，则修改键的值
             if(keys[i].equals(key)){
                 vals[i]=val;
                 return;

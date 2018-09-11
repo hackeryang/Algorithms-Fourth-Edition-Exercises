@@ -1,6 +1,6 @@
 package Chapter1_1Low;
 
-public class Histogram {
+public class Histogram {  //柱状图的实现
     public static int[] histogram(int[] a,int M){
         int[] b=new int[M];
         int n=0;

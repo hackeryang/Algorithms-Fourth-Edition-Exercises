@@ -11,7 +11,7 @@ public class LinkedListExercise2<Item> {
     * @return 新的链表
     * @throws Exception
     * */
-    public Node<Item> delete(int k,Node<Item> first) throws Exception{
+    public Node<Item> delete(int k,Node<Item> first) throws Exception{  //删除链表的第k个元素
         if(k<0 || first == null) return null;
         if(k==0){
             first=first.next;
@@ -48,18 +48,18 @@ public class LinkedListExercise2<Item> {
         forth.next=fifth;
         fifth.item="hacker";
         fifth.next=null;
-        //删除尾节点之前
+        //遍历原链表
         System.out.println("原链表：\n------");
         Node current1=first;
         while(current1.next!=null){
             System.out.println(current1.item);
             current1=current1.next;
         }
-        System.out.println(current1.item);
+        System.out.println(current1.item);  //前一个遍历只输出到倒数第二个节点，输出最后一个
         System.out.println("------");
 
         LinkedListExercise2<String> linkedListExercise2=new LinkedListExercise2<>();
-        //删除第一个元素
+        //删除第4个元素
         int k=4;
         System.out.println("正在删除第"+k+"个节点...");
         Node<String> resultNode=null;

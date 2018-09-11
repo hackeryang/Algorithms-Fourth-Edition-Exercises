@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 
-public class Queue<Item> implements Iterable<Item> {
+public class Queue<Item> implements Iterable<Item> {  //先进先出队列
     private Node first; //指向最早添加的节点的链接
     private Node last; //指向最近添加的节点的链接
     private int N; //队列中的元素数量

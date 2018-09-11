@@ -10,7 +10,7 @@ public class LinkedListExercise5<Item> {
             return "item: "+item;
         }
     }
-    public Node<Item> insertAfter(Node<Item> targetNode,Node<Item> node,Node<Item> first){
+    public Node<Item> insertAfter(Node<Item> targetNode,Node<Item> node,Node<Item> first){  //在某个链表项后面插入一个新链表项
         if(targetNode==null || node==null){
             return first;
         }
@@ -58,7 +58,7 @@ public class LinkedListExercise5<Item> {
             System.out.println(current2.item);
             current2=current2.next;
         }
-        System.out.println(current2.item);
+        System.out.println(current2.item);  //因为前面while循环只会循环到链表倒数第二项，最后一项的next为null所以不会被println出来，所以在这里要再println出链表最后一项
         System.out.println("------");
     }
 }

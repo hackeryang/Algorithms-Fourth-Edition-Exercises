@@ -1,6 +1,6 @@
 package Chapter2_1Text;
 
-public class Selection {  //选择排序
+public class Selection {  //选择排序，算法的时间效率取决于比较的次数
     public static void sort(Comparable[] a){
         //将a[]按升序排列
         int N=a.length; //数组长度

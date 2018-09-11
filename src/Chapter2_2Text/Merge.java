@@ -1,8 +1,8 @@
 package Chapter2_2Text;
 
-public class Merge { //自顶向下的归并排序
-    private static Comparable[] aux; //归并所需的辅助数组
-    public static void sort(Comparable[] a){
+public class Merge { //自顶向下的归并排序，先将所有元素复制到aux[]中，然后再归并回a[]中
+            private static Comparable[] aux; //归并所需的辅助数组
+            public static void sort(Comparable[] a){
         aux=new Comparable[a.length]; //一次性分配空间
         sort(a,0,a.length-1);
     }

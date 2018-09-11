@@ -2,7 +2,7 @@ package Chapter2_3Text;
 
 import edu.princeton.cs.algs4.StdRandom;
 
-public class Quick3way {
+public class Quick3way {  //三向切分的快速排序，是从左到右遍历数组一次，维持一个指针lt使a[lo..lt-1]中的元素都小于a[lo]，一个指针gt使a[gt+1..hi]中的元素都大于a[lo]，一个指针i使a[lt..i-1]中的元素都等于a[lo]，而a[i..gt]中的元素还未确定。
     public static void sort(Comparable[] a){
         StdRandom.shuffle(a);
         sort(a,0,a.length-1);

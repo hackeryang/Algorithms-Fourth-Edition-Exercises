@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 
-public class Stack<Item> implements Iterable<Item> {
+public class Stack<Item> implements Iterable<Item> {  //下压堆栈（链表实现）
     private Node first; //栈顶（最近添加的元素）
     private int N; //元素数量
     private class Node{

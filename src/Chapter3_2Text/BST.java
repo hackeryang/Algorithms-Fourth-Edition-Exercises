@@ -92,7 +92,7 @@ public class BST<Key extends Comparable<Key>,Value> {  //基于二叉查找树�
         else if(t<k) return select(x.right,k-t-1); //如果左子树中的节点数t小于k，则不需要查找左子树，在右子树中查找排名为k-t-1的键
         else return x;  //如果t等于k，就返回根节点
     }
-    public int rank(Key key){return rank(key,root);}  //返回键的排名
+    public int rank(Key key){return rank(key,root);}  //返回键的排名，最小键节点排名为0
     private int rank(Key key,Node x){
         //返回以x为根节点的子树中小于x.key的键的数量
         if(x==null) return 0;
@@ -123,18 +123,18 @@ public class BST<Key extends Comparable<Key>,Value> {  //基于二叉查找树�
         else if(cmp>0) x.right=delete(x.right,key);  //如果要删除的键大于当前节点的键，则递归查找右子树并删除节点
         else{
             //如果当前节点的键等于要删除的键
-            if(x.right==null) return x.left;
-            if(x.left==null) return x.right;
+            if(x.right==null) return x.left;  //如果被删除节点没有右子树，则直接返回它的左子树作为该轮递归根节点，解除了对自己的引用，相当于节点x被删除
+            if(x.left==null) return x.right;  //如果被删除节点没有左子树，则直接返回它的右子树作为该轮递归根节点，解除了对自己的引用，相当于节点x被删除
             Node t=x;  //将指向即将被删除的节点的链接保存为t
             x=min(t.right);  //将x指向将删除节点的后继节点，该节点是将删除节点的右子树中的最小节点，这样后继节点补上删除节点的位置后依然能保持二叉树有序
-            x.right=deleteMin(t.right);  //用deleteMin将后继节点的父节点的左链接（原本指向后继节点）链接到后继节点的右链接（也就是说，父节点解除对后继节点的链接），右链接即后继节点的右子树，最后通过这一行的赋值再次将后继节点的右子树链接到原本它的父节点上去
+            x.right=deleteMin(t.right);  //用deleteMin()将后继节点的父节点的左链接（原本指向后继节点）解除（也就是说，父节点解除对后继节点的链接,即在被删除节点的右子树中删除后继节点，因为该右子树会成为后继节点的右子树，不需要自己在里面），最后通过这一行的赋值再次将后继节点的右子树链接到被删除节点的右子树根节点上去
             x.left=t.left;  //将后继节点的左子树链接到原来被删除节点的左子树上去
         }
         x.N=size(x.left)+size(x.right)+1;  //更新节点数
         return x; //返回根节点
     }
-    public Iterable<Key> keys(){return keys(min(),max());}  //二叉查找树的范围查找
-    public Iterable<Key> keys(Key lo,Key hi){
+    public Iterable<Key> keys(){return keys(min(),max());}  //整个二叉查找树的遍历
+    public Iterable<Key> keys(Key lo,Key hi){  //二叉查找树的范围查找
         Queue<Key> queue=new Queue<Key>();  //将所有在给定范围内的键加入到一个队列中
         keys(root,queue,lo,hi);
         return queue;

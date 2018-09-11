@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 public class Stats {
-    public static void main(String[] args){
+    public static void main(String[] args){  //求均值和标准差
         Bag<Double> numbers=new Bag<Double>();
         while(!StdIn.isEmpty())
             numbers.add(StdIn.readDouble());

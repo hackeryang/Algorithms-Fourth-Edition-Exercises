@@ -25,6 +25,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
             int cmp=key.compareTo(keys[mid]);
             if(cmp<0) hi=mid-1;
             else if(cmp>0) lo=mid+1;
+            else return mid;
         }
         return lo;
     }

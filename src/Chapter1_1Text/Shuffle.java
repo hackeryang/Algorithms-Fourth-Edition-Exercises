@@ -2,7 +2,7 @@ package Chapter1_1Text;
 
 import edu.princeton.cs.algs4.StdRandom;
 
-public class Shuffle {
+public class Shuffle {  //随机将double数组中的元素排序
     //随机将double数组中的元素排序
     public static void shuffle(double[] a){
         int N=a.length;

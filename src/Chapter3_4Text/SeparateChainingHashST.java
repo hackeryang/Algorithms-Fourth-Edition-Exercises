@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.SequentialSearchST;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class SeparateChainingHashST<Key,Value> {
+public class SeparateChainingHashST<Key,Value> {  //基于拉链法的散列表
     private int N;  //键值对总数
     private int M;  //散列表大小
     private SequentialSearchST<Key,Value>[] st;  //存放链表对象的数组
@@ -25,7 +25,7 @@ public class SeparateChainingHashST<Key,Value> {
             delete(key);
             return;
         }
-        if(N>=8*M) resize(2*M);  //当每条链表平均长度大于等于8时扩容
+        if(N>=8*M) resize(2*M);  //当每条链表平均长度大于等于8时扩容哈希值数组
         if(!st[hash(key)].contains(key)) N++;
         st[hash(key)].put(key,val);
     }
@@ -34,7 +34,7 @@ public class SeparateChainingHashST<Key,Value> {
         int i=hash(key);
         if(st[i].contains(key)) N--;
         st[i].delete(key);
-        if(N>0 && N<=2*M) resize(M/2); //当每条链表平均长度小于等于2时，缩减容量
+        if(N>0 && N<=2*M) resize(M/2); //当每条链表平均长度小于等于2时，缩减哈希值数组的容量
     }
     //Exercise 3.4.19，在迭代器中将键以符号表的形式遍历
     public Iterable<Key> keys(){

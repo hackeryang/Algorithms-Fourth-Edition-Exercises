@@ -1,6 +1,6 @@
 package Chapter1_1Text;
 
-public class SwapArray {
+public class SwapArray {  //颠倒数组元素的顺序
     public static void main(String[] args){
         double[] a=new double[10];
         int N=a.length;

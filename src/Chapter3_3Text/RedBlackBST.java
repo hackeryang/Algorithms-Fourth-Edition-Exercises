@@ -1,5 +1,5 @@
 package Chapter3_3Text;
-
+//红黑二叉查找树，用标准的二叉查找树（完全由2-节点构成）和一些额外的信息（替换3-节点）来表示2-3树。红黑树将树中的链接分为两种类型：红链接将两个2-节点连接起来构成一个3-节点，黑链接则为2-3树中的普通链接，即将3-节点表示为由一条左斜的加粗红色链接（两个2-节点之一是另一个的左子节点）。
 public class RedBlackBST<Key extends Comparable<Key>,Value> {
     private Node root;
     private static final boolean RED=true;
@@ -98,9 +98,9 @@ public class RedBlackBST<Key extends Comparable<Key>,Value> {
     //Exercise 3.3.39
     private Node moveRedLeft(Node h){  //删除最小键之前的变换
         flipColors(h);
-        if(isRed(h.right.left)){
+        if(isRed(h.right.left)){  //根节点的右子节点的左子节点链接为红色，意味着根节点的右子树根节点可看作一个3-节点或者4-节点，右子树可以把该红色左子节点移到根节点，然后原根节点移到左子节点也形成一个3-节点，避免要删除的最小键节点处是个2-节点，删了破坏树的有序性
             h.right=rotateRight(h.right);
-            h=rotateLeft(h);  //在删除最小节点的情况下，节点h虽然是根节点，但是从右子树分支来看h是最小键节点，所以将原子树根节点h移动到左下角左子树位置，且形成了便于删除节点的3-节点或4-节点
+            h=rotateLeft(h);  //在删除最小节点的情况下，最小键节点的父节点h虽然是根节点，但是从右子树分支来看h是最小键节点，所以将原子树根节点h移动到左子树位置和最小键节点一起，形成了便于删除节点的3-节点或4-节点
         }
         return h;
     }
@@ -137,9 +137,9 @@ public class RedBlackBST<Key extends Comparable<Key>,Value> {
         return h;
     }
     //Exercise 3.3.40
-    private Node moveRedRight(Node h){
+    private Node moveRedRight(Node h){  //删除最大键之前的变换
         flipColors(h);
-        if(isRed(h.left.left)){
+        if(isRed(h.left.left)){  //根节点的左子节点的左子节点链接为红色，意味着根节点的左子树根节点可看作一个3-节点或者4-节点，左子树可以把自己移到根节点，然后原根节点移到右子节点也形成一个3-节点，避免要删除的最小键节点处是个2-节点，删了破坏树的有序性
             h=rotateRight(h);  //在删除最大节点的情况下，节点h虽然是根节点，但是从左子树分支来看h是最大键节点，所以将原子树根节点h移动到右下角右子树位置，且形成了便于删除节点的3-节点或4-节点
         }
         return h;
@@ -181,23 +181,23 @@ public class RedBlackBST<Key extends Comparable<Key>,Value> {
             if(!isRed(h.left) && !isRed(h.left.left)){  //如果左子树中不存在3-节点，则为了便于删除节点之后的树平衡，制造出一个3-节点
                 h=moveRedLeft(h);
             }
-            h.left=delete(h.left,key);  //递归想底部查找左子树，直到删除对应的键的节点
+            h.left=delete(h.left,key);  //递归向底部查找左子树，直到删除对应的键的节点
         }else{  //要删除的键大于等于根节点的键
             if(isRed(h.left)){
                 h=rotateRight(h);
             }
-            if(key.compareTo(h.key)==0 && h.right==null){  //如果要删除的是根节点，而根节点没有右子树，，返回空
+            if(key.compareTo(h.key)==0 && h.right==null){  //如果要删除的是根节点，而根节点没有右子树，返回空
                 return null;
             }
             if(!isRed(h.right) && !isRed(h.right.left)){
                 h=moveRedRight(h);  //如果子树根节点的右子树链接和右子树的左子树链接都是黑色，说明右子树分支没有3-节点，需要从左子树兄弟分支借一个节点过来组成3-节点便于删除
             }
-            if(key.compareTo(h.key)==0){  //如果要删除的键就是子树根节点，则将后继节点设置为右子树的最小键节点，并解除对该根节点的应用
+            if(key.compareTo(h.key)==0){  //如果要删除的键就是子树根节点，则将后继节点设置为右子树的最小键节点，并解除对该根节点的引用
                 h.val=get(h.right,min(h.right).key);
                 h.key=min(h.right).key;
-                h.right=deleteMin(h.right);
-            }else{
-                h.right=delete(h.right,key);
+                h.right=deleteMin(h.right);  //用deleteMin()将后继节点的父节点的左链接（原本指向后继节点）解除（也就是说，父节点解除对后继节点的链接,即在被删除节点的右子树中删除后继节点，因为该右子树会成为后继节点的右子树，不需要自己在里面），最后通过这一行的赋值再次将后继节点的右子树链接到被删除节点的右子树根节点上去
+            }else{  //当要删除的键大于根节点的键
+                h.right=delete(h.right,key);  //递归向底部查找右子树，直到删除对应的键的节点
             }
         }
         return balance(h);  //删除节点后将红黑树进行结构平衡

@@ -51,7 +51,7 @@ public class SequentialSearchST<Key,Value> {
             return x.next;
         }
         x.next=delete(x.next,key);  //链表第一项不是要删除的项，则从第二项开始递归查找并删除对应的key
-        return x;
+        return x;  //返回当前节点，使上一轮递归的delete()能返回当前节点，使一轮轮节点相连
     }
     public Iterable<Key> keys(){
         Queue<Key> queue=new Queue<>();

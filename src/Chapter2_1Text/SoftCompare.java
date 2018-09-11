@@ -3,7 +3,7 @@ package Chapter2_1Text;
 import edu.princeton.cs.algs4.*;
 import edu.princeton.cs.algs4.Selection;
 
-public class SoftCompare {
+public class SoftCompare {  //比较两种排序算法运行时间快慢的方法
     public static double time(String alg,Double[] a){
         Stopwatch timer=new Stopwatch();
         if(alg.equals("Insertion")) Insertion.sort(a);

@@ -2,7 +2,7 @@ package Chapter3_1Text;
 
 import edu.princeton.cs.algs4.Queue;
 
-public class BinarySearchST<Key extends Comparable<Key>,Value> {
+public class BinarySearchST<Key extends Comparable<Key>,Value> {  //基于有序符号表（有序数组）的二分查找
     private Key[] keys;
     private Value[] vals;
     private int N;
@@ -25,6 +25,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
             int cmp=key.compareTo(keys[mid]);
             if(cmp<0) hi=mid-1;
             else if(cmp>0) lo=mid+1;
+            else return mid;
         }
         return lo;
     }
@@ -53,7 +54,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
                 vals[j]=vals[j+1];
             }
             N--;
-            keys[N]=null;
+            keys[N]=null;  //这里的N已经变成了N递减之前的N-1，即最后一项
             vals[N]=null;
         }
     }

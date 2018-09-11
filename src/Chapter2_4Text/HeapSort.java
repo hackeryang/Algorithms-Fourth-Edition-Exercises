@@ -4,13 +4,13 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 public class HeapSort {
-    //堆排序
+    //堆排序，一开始将原始数组重新组织安排进一个二叉堆中，然后进行下沉排序，从二叉堆中按递减顺序不断重复取出并删除最大元素
     public static void sort(Comparable[] a){
         int N=a.length;
-        for(int k=N/2;k>=1;k--)
+        for(int k=N/2;k>=1;k--)  //从底部倒数第二层开始下沉交换
             sink(a,k,N);
         while(N>1){
-            exch(a,1,N--);  //将当前N减小，当前的N后面的元素都已有序，因此只排序N前面的元素
+            exch(a,1,N--);  //将当前N减小，当前的N后面的最大元素都已有序并被排除出二叉堆，因此只排序N前面的元素
             sink(a,1,N);
         }
     }

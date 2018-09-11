@@ -3,7 +3,7 @@ package Chapter1_3High;
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Josephus {
+public class Josephus {  //约瑟夫环问题
     public static void main(String[] args){
         int m=3;
         int N=41;

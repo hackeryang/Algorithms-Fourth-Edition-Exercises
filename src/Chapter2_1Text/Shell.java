@@ -3,7 +3,7 @@ package Chapter2_1Text;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Shell {  //希尔排序
+public class Shell {  //希尔排序，在插入排序中加入一个外循环来以h为间隔，按照递增序列递减得到
     public static void sort(Comparable[] a){
         //将a[]按升序排列
         int N=a.length;
