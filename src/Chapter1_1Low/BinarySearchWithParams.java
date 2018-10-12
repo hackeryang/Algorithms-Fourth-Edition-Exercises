@@ -10,7 +10,7 @@ public class BinarySearchWithParams {
         int lo=0;
         int hi=a.length-1;
         while(lo<=hi){
-            int mid=lo+(hi-lo)/2;
+            int mid=lo+(hi-lo)/2;  //也可以为(lo + hi) >> 1，二进制中按位向右移一位等同于除以2
             if(key<a[mid])
                 hi=mid-1;
             else if(key>a[mid])

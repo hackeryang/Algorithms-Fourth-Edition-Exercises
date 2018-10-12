@@ -21,7 +21,7 @@ public class BinarySearchST<Key extends Comparable<Key>,Value> {
     public int rank(Key key){  //找出小于指定键的键的数量
         int lo=0,hi=N-1;
         while(lo<=hi){
-            int mid=lo+(hi-lo)/2;
+            int mid=lo+(hi-lo)/2;  //也可以为(lo + hi) >> 1，二进制中按位向右移一位等同于除以2
             int cmp=key.compareTo(keys[mid]);
             if(cmp<0) hi=mid-1;
             else if(cmp>0) lo=mid+1;
