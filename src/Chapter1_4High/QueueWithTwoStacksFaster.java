@@ -2,6 +2,7 @@ package Chapter1_4High;
 
 import edu.princeton.cs.algs4.Stack;
 
+//exercise 1.4.27
 public class QueueWithTwoStacksFaster<T> {
     private Stack<T> stack1;
     private Stack<T> stack2;

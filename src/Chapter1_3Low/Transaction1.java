@@ -2,6 +2,7 @@ package Chapter1_3Low;
 
 import edu.princeton.cs.algs4.In;
 
+//exercise 1.3.17
 public class Transaction1 {
     private Date1 when;
     private String who;

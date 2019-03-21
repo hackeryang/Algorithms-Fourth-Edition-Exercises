@@ -2,6 +2,7 @@ package Chapter1_2Low;
 
 import edu.princeton.cs.algs4.StdRandom;
 
+//exercise 1.2.3
 public class Interval2D {
     public Interval1D x;
     public Interval1D y;

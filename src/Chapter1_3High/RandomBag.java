@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Iterator;
 
+//exercise 1.3.34
 public class RandomBag<Item> implements Iterable<Item> {
     private Item[] a=(Item[])new Object[1];
     private int N=0;

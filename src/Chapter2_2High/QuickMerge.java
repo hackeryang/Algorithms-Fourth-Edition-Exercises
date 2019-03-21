@@ -3,7 +3,7 @@ package Chapter2_2High;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
-public class QuickMerge {  //Exercise 2.2.10
+public class QuickMerge {  //Exercise 2.2.11
     private static Comparable[] aux;
 
     public static void merge(Comparable[] a,int lo,int mid,int hi){

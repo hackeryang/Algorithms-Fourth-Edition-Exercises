@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
+//exercise 1.2.10
 public class VisualCounter {
     private long N;
     private double total;

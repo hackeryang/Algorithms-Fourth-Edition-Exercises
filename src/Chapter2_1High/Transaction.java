@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.Date;
 
 import java.util.Arrays;
 
+//exercise 2.1.21
 public class Transaction implements Comparable<Transaction> {
     private String who; //客户
     private Date when;  //日期

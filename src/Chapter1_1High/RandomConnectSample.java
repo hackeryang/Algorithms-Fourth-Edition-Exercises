@@ -3,6 +3,7 @@ package Chapter1_1High;
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdRandom;
 
+//exercise 1.1.31
 public class RandomConnectSample {
     static class Point{
         double x;

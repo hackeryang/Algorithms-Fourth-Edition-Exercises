@@ -1,5 +1,6 @@
 package Chapter1_5Low;
 
+//exercise 1.5.7
 public class QuickFindUF {
     private int[] id; //access to component id(site indexed)
     private int count; //number of components

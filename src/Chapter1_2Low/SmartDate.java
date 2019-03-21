@@ -1,5 +1,6 @@
 package Chapter1_2Low;
 
+//exercise 1.2.11
 public class SmartDate {
     @SuppressWarnings("unused")
     private final int year;

@@ -2,6 +2,7 @@ package Chapter1_2Low;
 
 import java.util.ArrayList;
 
+//exercise 1.2.1
 public class Point2D {
     public double x;
     public double y;

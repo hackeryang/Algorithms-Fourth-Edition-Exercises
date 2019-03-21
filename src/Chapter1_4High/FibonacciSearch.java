@@ -2,6 +2,7 @@ package Chapter1_4High;
 
 import java.util.Arrays;
 
+//exercise 1.4.22
 public class FibonacciSearch {  //仅用加减实现的二分查找，只能使用加法和减法以及常数的额外内存空间
     private final int FI_SIZE=20;
     public int fbSearch(int[] array,int target) {

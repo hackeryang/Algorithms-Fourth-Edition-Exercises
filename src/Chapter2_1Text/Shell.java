@@ -3,14 +3,14 @@ package Chapter2_1Text;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Shell {  //希尔排序，在插入排序中加入一个外循环来以h为间隔，按照递增序列递减得到
+public class Shell {  //希尔排序，在插入排序中加入一个外循环来以h位为间隔排序，不断递减间隔h最终间隔为1，使所有元素都有序
     public static void sort(Comparable[] a){
         //将a[]按升序排列
         int N=a.length;
         int h=1;
         while(h<N/3) h=3*h+1; //1,4,13,40,121,364,1093...
         while(h>=1){
-            //将数组变为h有序
+            //将数组变为每隔h位有序
             for(int i=h;i<N;i++){
                 //将a[i]插入到a[i-h]，a[i-3*h]，a[i-3h]...之中
                 for(int j=i;i>=h && less(a[j],a[j-h]);j-=h)

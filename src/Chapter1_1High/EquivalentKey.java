@@ -1,5 +1,6 @@
 package Chapter1_1High;
 
+//exercise 1.1.29
 public class EquivalentKey {
     public static void main(String[] args){
         int[] N={1,2,3,4,5,6,7,8,9,89,89,100};

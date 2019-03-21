@@ -1,5 +1,6 @@
 package Chapter1_1Low;
 
+//exercise 1.1.24
 public class Euclid {
     public static int gcd(int m,int n){
         int rem=0;

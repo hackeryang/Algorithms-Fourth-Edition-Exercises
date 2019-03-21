@@ -2,6 +2,7 @@ package Chapter1_2Low;
 
 import java.util.ArrayList;
 
+//exercise 1.2.2
 public class Interval1D {
     private double lo;
     private double hi;

@@ -29,7 +29,5 @@ public class ClassicString {
         //以空白字符为分隔符从StdIn中创建一个字符串数组
         String input=StdIn.readAll();
         String[] words=input.split("\\s+");
-
-
     }
 }

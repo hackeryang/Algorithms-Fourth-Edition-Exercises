@@ -9,6 +9,7 @@ import java.util.Arrays;
 public class BinarySearch {  //二分查找算法（重要）
     public static int rank(int key,int[] a){
         //数组必须为有序的
+        Arrays.sort(a);
         int lo=0;
         int hi=a.length-1;
         while(lo<=hi){
@@ -22,7 +23,6 @@ public class BinarySearch {  //二分查找算法（重要）
     }
     public static void main(String[] args){
         int[] whitelist= In.readInts(args[0]);
-        Arrays.sort(whitelist);
         while(!StdIn.isEmpty())
         { //读取键值，如果不存在于白名单中则将其打印
             int key=StdIn.readInt();

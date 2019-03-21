@@ -6,6 +6,7 @@ import edu.princeton.cs.algs4.StdOut;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 
+//exercise 1.3.50
 public class Stack<Item> implements Iterable<Item> {
     private Node first;
     private int N;

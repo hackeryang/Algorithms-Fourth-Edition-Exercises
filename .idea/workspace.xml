@@ -1,16 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d570038-ef32-41bb-b511-ee8aa7951861" name="Default" comment="">
+    <list default="true" id="5d8da7d3-849f-4789-87e1-2ffb52a12dcc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/ArrayExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/ArrayExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/BinomialSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/BinomialSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/DumplicateElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/DumplicateElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/EquivalentKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/EquivalentKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/RandomConnectSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/RandomConnectSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/ArraySwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/ArraySwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Between0And1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Between0And1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/BinarySearchWithParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/BinarySearchWithParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/BooleanArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/BooleanArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/ChapterOneDotOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/PrintValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/DecimalToBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Euclid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Euclid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Lg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Lg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Logarithmic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Logarithmic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Mystery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Mystery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Practice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Tabulate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Tabulate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2High/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2High/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2High/ReadInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2High/ReadInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2High/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2High/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/BinarySearchCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/BinarySearchCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/ClassicString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/ClassicString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Interval1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Interval1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Interval2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Interval2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/VisualCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/VisualCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/CopiedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/CopiedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/GeneralizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/GeneralizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RandomBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RandomBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueueIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueueIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RingBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Steque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Steque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/CircularLinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/CircularLinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter2_2Text/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2Text/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter3_1High/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1High/BinarySearchST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Low/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Low/BinarySearchST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Date1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Date1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/DoublingStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/DoublingStackOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/EvaluatePostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/EvaluatePostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/FixedCapacityStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/FixedCapacityStackOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/InfixToPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Parentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/QueueExercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/QueueExercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/ResizingArrayQueueOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/ResizingArrayQueueOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Stack2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Stack2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Transaction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Transaction1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/ResizingArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/ResizingArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/BitonicSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/BitonicSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/ClosestPairFaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/ClosestPairFaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FastestPairLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FastestPairLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/LocalMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/LocalMinimum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/MatrixLocalMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/MatrixLocalMinimum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/ThreeSumFaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/ThreeSumFaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/SameElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/SameElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/StaticSETofInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/StaticSETofInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSameFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSameFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1Text/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1Text/Shell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2Text/MergeBU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2Text/MergeBU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4Text/MaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4Text/MaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5Text/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5Text/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_2Text/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_2Text/BST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,149 +116,174 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1717610086">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1017" />
-          <entry key="md" value="55" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1017" />
-          <entry key="Markdown" value="55" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="69" />
-          <entry key="Markdown" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="69" />
-          <entry key="md" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/Josephus.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter2_5Low/Record.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_2High/ReverseTimes.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_5High/KendallTau.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_5High/FileSorter.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_5High/California.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_1Low/SequentialSearchST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_2Low/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_2High/EnhancedBST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_3Low/TestRB.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_3High/RedBlackBST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_5High/SparseMatrix.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Text/SqrtNewton.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Text/SwapArray.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Text/Shuffle.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Low/DecimalToBinary.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Low/ArraySwap.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Low/Histogram.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Low/Rank.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1High/BinomialSample.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_3Text/ResizingArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_3Low/Stack2.java" />
         <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise3.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise4.java" />
         <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise5.java" />
         <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise6.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_3Text/Stack.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_3Text/Stats.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_3Text/Queue.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_3Text/Bag.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_1Text/SoftCompare.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_1Text/Selection.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_1Text/Insertion.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_1Text/Shell.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_2Text/MergeBU.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_4Text/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_1Text/SequentialSearchST.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Chapter3_2Text/BST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_3Text/RedBlackBST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_4Text/SeparateChainingHashST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_4Text/LinearProbingHashST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_5Text/FileIndex.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise7.java" />
         <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise8.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_2Text/Merge.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_1Low/BinarySearchWithParams.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_1Low/BinarySearchST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_1High/BinarySearchST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/CircularLinkedListQueue.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/Steque.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/RandomBag.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/RandomQueue.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/RandomQueueIterator.java" />
         <option value="$PROJECT_DIR$/src/Chapter1_3High/Josephus.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/GeneralizedQueue.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/RingBuffer.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/CopiedStack.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/Queue.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/Stack.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque1.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest2.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4Low/TwoSame.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4Low/TwoSameFast.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4Low/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4Low/StaticSETofInts.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4Low/SameElements.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2_4Text/MaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2_4Text/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2_5Text/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3_2Text/BST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/FourSum.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/ThreeSumFaster.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/ClosestPairFaster.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/FastestPairLinear.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/LocalMinimum.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/MatrixLocalMinimum.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/BitonicSearch.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java" />
+        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,40 +296,25 @@
               <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter3_2Text" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="SoftCompare&#9;PSI&#9;JAVA://Chapter2_1Text.SoftCompare" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538813003556" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553176857923" />
+    <property name="last_opened_file_path" value="F:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Chapter3_3High" />
-      <recent name="Chapter3_3Low" />
-      <recent name="Chapter3_1Low" />
-      <recent name="Chapter2_3Low" />
-      <recent name="Chapter2_2Low" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter3_5High" />
-      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter3_2Low" />
-      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter3_1High" />
-      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter3_1Low" />
-      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter2_5High" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,599 +328,423 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter1_2Text.Counter" />
-      <module name="Algorithms(Fourth Edition) Exercises" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter1_2Text.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Counter" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d570038-ef32-41bb-b511-ee8aa7951861" name="Default" comment="" />
-      <created>1524484540450</created>
+      <changelist id="5d8da7d3-849f-4789-87e1-2ffb52a12dcc" name="Default Changelist" comment="" />
+      <created>1552913003162</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524484540450</updated>
-      <workItem from="1524484541716" duration="8164000" />
-      <workItem from="1524544614149" duration="8439000" />
-      <workItem from="1525939779552" duration="1753000" />
-      <workItem from="1526540804517" duration="1413000" />
-      <workItem from="1526608768192" duration="3773000" />
-      <workItem from="1526688215500" duration="5882000" />
-      <workItem from="1526793222902" duration="4488000" />
-      <workItem from="1526861336587" duration="10994000" />
-      <workItem from="1526908927126" duration="1262000" />
-      <workItem from="1526948725278" duration="5397000" />
-      <workItem from="1536199120169" duration="82000" />
-      <workItem from="1536199746914" duration="5075000" />
-      <workItem from="1536232049900" duration="7326000" />
-      <workItem from="1536282567857" duration="9665000" />
-      <workItem from="1536368385144" duration="8736000" />
-      <workItem from="1536412577165" duration="2384000" />
-      <workItem from="1536454825215" duration="12615000" />
-      <workItem from="1536540913098" duration="7052000" />
-      <workItem from="1536581250522" duration="5667000" />
-      <workItem from="1536626077354" duration="7224000" />
-      <workItem from="1537147854189" duration="267000" />
-      <workItem from="1537667168412" duration="776000" />
-      <workItem from="1538568615187" duration="2649000" />
-      <workItem from="1538618979644" duration="1136000" />
-      <workItem from="1538812756708" duration="358000" />
+      <updated>1552913003162</updated>
+      <workItem from="1552913006782" duration="1482000" />
+      <workItem from="1553061922223" duration="2312000" />
+      <workItem from="1553082461359" duration="10641000" />
+      <workItem from="1553147595467" duration="11937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122577000" />
+    <option name="totallyTimeSpent" value="26372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3336887" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32681867" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/Algorithms-Fourth-Edition-Exercises" />
-    </ignored-roots>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_1Low/ArraySwap.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/RandomQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="100">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_1Low/Histogram.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/RandomQueueIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_1Low/Rank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_1High/BinomialSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3Low/Stack2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="107" selection-start-line="4" selection-start-column="107" selection-end-line="4" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="60" column="120" selection-start-line="60" selection-start-column="120" selection-end-line="60" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3Text/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3Text/Stats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3Text/ResizingArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3Text/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_1Text/SoftCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_1Text/Selection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_1Text/Insertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_1Text/Shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3Text/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_2Text/MergeBU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_3Text/Quick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/StdRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8579">
-          <caret line="432" column="23" selection-start-line="432" selection-start-column="23" selection-end-line="432" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_4Text/TopM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_4Text/MaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_4Text/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_5Text/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_5Text/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="138">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1Text/SequentialSearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/SequentialSearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2692">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_4Text/SeparateChainingHashST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_3Text/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="181" column="24" lean-forward="true" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/In.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="120" column="38" lean-forward="true" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/SET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_4Text/LinearProbingHashST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_5Text/LookupCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_5Text/FileIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_2Text/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_1Low/BinarySearchWithParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1High/TestBinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1High/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_2Text/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2990">
-          <caret line="132" column="50" lean-forward="true" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1Low/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        <state relative-caret-position="100">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/Josephus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Algorithms(Fourth Edition) Exercises</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/GeneralizedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/RingBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/CopiedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/TwoSame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/TwoSameFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/StaticSETofInts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/SameElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Text/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/Stopwatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2_4Text/TopM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2_4Text/Multiway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2_4Text/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2_4Text/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2_5Text/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2_5Text/KthSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3_1Text/SequentialSearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="49" lean-forward="true" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter3_2Text/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1667">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/Accumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4Low/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/FourSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/ThreeSumFaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/ClosestPairFaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/FastestPairLinear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/LocalMinimum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/MatrixLocalMinimum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/BitonicSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.Date;
 
 import java.util.Comparator;
 
-public class Transaction {
+public class Transaction {  //根据金融交易的不同属性自定义比较器
     private  String who;
     private  Date when;
     private  double amount;
@@ -21,7 +21,7 @@ public class Transaction {
         a[i]=a[j];
         a[j]=t;
     }
-    public static class WhoOrder implements Comparator<Transaction>{  //根据日期进行排序的比较器
+    public static class WhenOrder implements Comparator<Transaction>{  //根据日期进行排序的比较器
         public int compare(Transaction v,Transaction w){return v.when.compareTo(w.when);}
     }
     public static class HowMuchOrder implements Comparator<Transaction>{  //根据金额大小进行排序的比较器

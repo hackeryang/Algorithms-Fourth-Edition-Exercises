@@ -42,7 +42,7 @@ public class BST<Key extends Comparable<Key>,Value> {  //基于二叉查找树�
         if(cmp<0) x.left=put(x.left,key,val);  //如果键比根节点小，则递归查找左子树并插入新节点的键值
         else if(cmp>0) x.right=put(x.right,key,val);  //如果键比根节点大，则递归查找右子树并插入新节点的键值
         else x.val=val;  //如果查找插入的键就是根节点，则修改根节点的值
-        x.N=size(x.left)+size(x.right)+1;
+        x.N=size(x.left)+size(x.right)+1;  //有可能会插入新节点，所以需要更新一下节点数
         return x;  //返回根节点
     }
     public Key min(){return min(root).key;}

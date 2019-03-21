@@ -1,6 +1,7 @@
 package Chapter1_3High;
 
-public class RingBuffer<Item> {
+//exercise 1.3.39
+public class RingBuffer<Item> {  //环形缓冲区
     public Item[] a=null;
     public int writePos=0;
     public int readPos=0;

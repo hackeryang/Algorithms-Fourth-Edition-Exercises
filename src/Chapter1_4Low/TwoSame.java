@@ -2,6 +2,7 @@ package Chapter1_4Low;
 
 import edu.princeton.cs.algs4.In;
 
+//exercise 1.4.8
 public class TwoSame {
     public static int twoSame(long[] a){
         int cnt=0;

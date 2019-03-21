@@ -2,6 +2,7 @@ package Chapter1_3Low;
 
 import edu.princeton.cs.algs4.In;
 
+//exercise 1.3.16
 public class Date1 {
     private int month;
     private int day;

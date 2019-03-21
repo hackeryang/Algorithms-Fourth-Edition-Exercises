@@ -3,6 +3,7 @@ package Chapter1_3Low;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+//exercise 1.3.7
 public class Stack<Item> {
     private int N;
     private Node first;
@@ -32,6 +33,7 @@ public class Stack<Item> {
     }
 
     public Item peek(){return first.item;}
+
     public static void main(String[] args){
         Stack<String> s=new Stack<String>();
         while(!StdIn.isEmpty()){

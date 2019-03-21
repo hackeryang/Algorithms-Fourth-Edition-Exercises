@@ -1,5 +1,6 @@
 package Chapter1_3LinkedListExercises;
 
+//exercise 1.3.19
 public class LinkedListExercise1<Item> {
     //节点
     private static class Node<Item>{

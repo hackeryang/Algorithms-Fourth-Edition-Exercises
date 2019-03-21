@@ -1,5 +1,6 @@
 package Chapter1_5Low;
 
+//exercise 1.5.4
 public class WeightedQuickUnionUFSample {
     private int[] id;
     private int[] sz; //存放树的每一个分支的深度

@@ -2,6 +2,7 @@ package Chapter1_1Low;
 
 import java.util.Scanner;
 
+//exercise 1.1.3
 public class Practice3 {
     public static void main(String[] args){
         System.out.println("please input 3 integers:");

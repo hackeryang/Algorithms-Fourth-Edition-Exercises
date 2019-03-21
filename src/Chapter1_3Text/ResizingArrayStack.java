@@ -21,8 +21,8 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {  //下压栈�
     }
     public Item pop(){
         //从栈顶删除元素
-        Item item=a[--N];
-        a[N]=null; //避免对象游离
+        Item item=a[--N];  //N为元素数量，因此N-1才是数组中最后一个元素
+        a[N]=null; //避免对象游离，此时的N已经是N减小前的N-1，即把最后一个元素置为空
         if(N>0 && N==a.length/4) resize(a.length/2);
         return item;
     }

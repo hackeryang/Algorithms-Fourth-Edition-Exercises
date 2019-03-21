@@ -3,6 +3,7 @@ package Chapter1_3Low;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+//exercise 1.3.1
 public class FixedCapacityStackOfStrings {
     private int N;
     private String[] a;

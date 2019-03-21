@@ -1,5 +1,6 @@
 package Chapter1_1Low;
 
+//exercise 1.1.20
 public class Logarithmic {
     public static double logarithmic(int N){
         if(N==0)

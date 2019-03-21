@@ -1,6 +1,6 @@
 package Chapter2_4Text;
 
-public class MaxPQ<Key extends Comparable<Key>> {
+public class MaxPQ<Key extends Comparable<Key>> {  //基于二叉堆的最大优先队列，优先踢出最大元素
     private Key[] pq;  //基于堆的完全二叉树，每个节点都大于等于它的两个子节点
     private int N=0;  //存储于pq[1..N]中，pq[0]没有使用
 

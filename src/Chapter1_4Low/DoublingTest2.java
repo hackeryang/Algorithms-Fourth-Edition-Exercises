@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
+//exercise 1.4.3
 public class DoublingTest2 {
     public static double timeTrial(int N){
         //Time ThreeSum2.count() for N

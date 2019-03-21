@@ -2,6 +2,7 @@ package Chapter1_4Low;
 
 import java.util.Arrays;
 
+//exercise 1.4.10
 public class BinarySearch {
     public int rank(int key,int[] a){
         //数组必须是有序的

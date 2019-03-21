@@ -1,5 +1,6 @@
 package Chapter1_1High;
 
+//exercise 1.1.27
 public class BinomialSample {  //二项分布发生k次的概率
     /*
     * 使用一个二维数组来存储各项二项分布的概率

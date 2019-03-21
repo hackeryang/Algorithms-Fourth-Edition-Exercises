@@ -2,6 +2,7 @@ package Chapter1_3Low;
 
 import java.util.Iterator;
 
+//exercise 1.3.12
 public class Stack2<Item> implements Iterable<Item> {  //将一个链表栈中的项按照原顺序复制到另一个链表栈中，需要两次迭代器遍历以及两次入栈操作来将顺序负负得正
     /*
     * 链表实现

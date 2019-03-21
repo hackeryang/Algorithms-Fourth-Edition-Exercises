@@ -2,6 +2,7 @@ package Chapter1_3High;
 
 import java.util.Iterator;
 
+//exercise 1.3.38
 public class GeneralizedQueue<Item> implements Iterable<Item> {
     private Item[] a;
     private int N;

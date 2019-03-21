@@ -3,6 +3,7 @@ package Chapter1_2High;
 import Chapter1_2High.Date;
 import edu.princeton.cs.algs4.StdOut;
 
+//exercise 1.2.19
 public class Transaction {
     private Date when;
     private String who;

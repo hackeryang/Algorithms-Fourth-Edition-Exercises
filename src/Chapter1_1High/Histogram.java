@@ -2,6 +2,7 @@ package Chapter1_1High;
 
 import edu.princeton.cs.algs4.StdDraw;
 
+//exercise 1.1.32
 public class Histogram {
     public static void main(String[] args){
         double[] a={1.12, 1.22, 5.666, 9.0908, 8.902, 3.892, 10.782, 10.9,10.19, 10.29, 20.1};
