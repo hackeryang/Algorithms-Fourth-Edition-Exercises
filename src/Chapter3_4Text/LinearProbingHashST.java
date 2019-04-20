@@ -6,7 +6,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class LinearProbingHashST<Key,Value> {  //基于线性探测的符号表
     private int N;  //符号表中键值对的总数
-    private int M=16;  //线性探测表的大小
+    private int M;  //线性探测表的大小
     private Key[] keys;  //键
     private Value[] vals;  //值
     public LinearProbingHashST(int cap){
@@ -14,6 +14,7 @@ public class LinearProbingHashST<Key,Value> {  //基于线性探测的符号表
         keys=(Key[])new Object[M];
         vals=(Value[])new Object[M];
     }
+    //每个十六进制数4bit，8位16进制数正好是4Byte，大小刚好是int，F的二进制为1111，7的二进制为0111，0x7fffffff就是最大整数，第一位0表示正数
     private int hash(Key key){return (key.hashCode() & 0x7fffffff)%M;}
     public boolean contains(Key key){
         return get(key)!=null;
@@ -32,7 +33,8 @@ public class LinearProbingHashST<Key,Value> {  //基于线性探测的符号表
     public void put(Key key,Value val){
         if(N>=M/2) resize(2*M);  //当占用空间超过一半时，将容量M加倍
         int i;
-        for(i=hash(key);keys[i]!=null;i=(i+1)%M){  //先从散列表的键数组中的键哈希值索引处key[hash(key)]向后一位一位遍历（从该索引开始是因为该位置处本应该放这个键，如果已经放了别的键就向后顺延放置），如果找到了对应的键，则修改键的值
+        //先从散列表的键数组中的键哈希值索引处key[hash(key)]向后一位一位遍历（从该索引开始是因为该位置处本应该放这个键，如果已经放了别的键就向后顺延放置），如果找到了对应的键，则修改键的值
+        for(i=hash(key);keys[i]!=null;i=(i+1)%M){
             if(keys[i].equals(key)){
                 vals[i]=val;
                 return;

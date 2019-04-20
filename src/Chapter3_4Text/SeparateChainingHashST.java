@@ -18,6 +18,7 @@ public class SeparateChainingHashST<Key,Value> {  //基于拉链法的散列表
         for(int i=0;i<M;i++)
             st[i]=new SequentialSearchST();
     }
+    //每个十六进制数4bit，8位16进制数正好是4Byte，大小刚好是int，F的二进制为1111，7的二进制为0111，0x7fffffff就是最大整数，第一位0表示正数
     private int hash(Key key){return (key.hashCode() & 0x7fffffff)%M;}
     public Value get(Key key){return (Value)st[hash(key)].get(key);}  //根据对应键的哈希值，在哈希值数组中找到该哈希值指向的链表，然后在所在链表中查找键的值
     public void put(Key key,Value val){  //根据对应键的哈希值，在哈希值数组中找到该哈希值指向的链表，然后在所在链表中插入键值对
