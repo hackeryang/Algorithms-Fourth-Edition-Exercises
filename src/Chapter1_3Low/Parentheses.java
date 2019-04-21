@@ -1,6 +1,6 @@
 package Chapter1_3Low;
 
-//exercise 1.3.4
+//Exercise 1.3.4
 public class Parentheses {
     public static void main(String[] args){
         String stream="[(])";

@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 
-//exercise 1.4.14
+//Exercise 1.4.14
 public class FourSum {
     public int count(long[] a){  //三个for循环复杂度为N的三次方，故总的复杂度（包括rank)为N的三次方乘以lgN
         int cnt=0;

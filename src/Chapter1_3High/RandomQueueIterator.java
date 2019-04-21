@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Iterator;
 
-//exercise 1.3.36
+//Exercise 1.3.36
 public class RandomQueueIterator<Item> implements Iterator<Item> {
     public int N;
     public Item[] a;

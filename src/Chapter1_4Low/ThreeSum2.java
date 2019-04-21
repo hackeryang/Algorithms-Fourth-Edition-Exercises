@@ -6,7 +6,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 
-//exercise 1.4.2
+//Exercise 1.4.2
 public class ThreeSum2 {
     public static int count(int[] a){
         //计算和为0的三元组的数目

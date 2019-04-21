@@ -2,7 +2,7 @@ package Chapter1_4Low;
 
 import java.util.Arrays;
 
-//exercise 1.4.12
+//Exercise 1.4.12
 public class SameElements {
     //x和y是已经被排序过的数组
     public static void sameElements(int[] x,int[] y){

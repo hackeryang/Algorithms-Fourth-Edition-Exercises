@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdIn;
 
 import java.util.Iterator;
 
-//exercise 1.3.8
+//Exercise 1.3.8
 public class DoublingStackOfStrings<Item> implements Iterable<Item> {
     private int N;
     private Item[] items=(Item[])(new Object[1]);

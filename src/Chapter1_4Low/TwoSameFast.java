@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.In;
 
 import java.util.Arrays;
 
-//exercise 1.4.8
+//Exercise 1.4.8
 public class TwoSameFast {
     public static int twoSameFast(long[] a){
         int cnt=0;

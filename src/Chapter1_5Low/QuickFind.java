@@ -1,6 +1,6 @@
 package Chapter1_5Low;
 
-//exercise 1.5.1
+//Exercise 1.5.1
 public class QuickFind {
     private int[] id; //access to component id(site indexed)
     private int count; //number of components

@@ -2,7 +2,7 @@ package Chapter1_3High;
 
 import java.util.Iterator;
 
-//exercise 1.3.33
+//Exercise 1.3.33
 public class ResizingArrayDeque1<Item> implements Iterable<Item> {
     private Item[] a;
     private int N;

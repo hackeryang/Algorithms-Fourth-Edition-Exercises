@@ -2,7 +2,7 @@ package Chapter1_1Low;
 
 import java.util.Locale;
 
-//exercise 1.1.11
+//Exercise 1.1.11
 public class BooleanArray {
     private static void printout(boolean[][] al){
         for(int i=0;i<al.length;i++){

@@ -1,6 +1,6 @@
 package Chapter1_4High;
 
-//exercise 1.4.15
+//Exercise 1.4.15
 public class ThreeSumFaster {
     public int threeSumFaster(long[] a){
         int cnt=0;

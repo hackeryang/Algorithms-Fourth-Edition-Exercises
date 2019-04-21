@@ -2,7 +2,7 @@ package Chapter1_4High;
 
 import java.util.Arrays;
 
-//exercise 1.4.23
+//Exercise 1.4.23
 public class FractionBinarySearch {
     public static int rank(double key,double[] a){
         //数组必须是有序的

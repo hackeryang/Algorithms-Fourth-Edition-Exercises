@@ -3,7 +3,7 @@ package Chapter1_3LinkedListExercises;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-//exercise 1.3.31
+//Exercise 1.3.31
 public class DoublyLinkedList<Item> implements Iterable<Item> {
     private int N;
     private DoubleNode first;

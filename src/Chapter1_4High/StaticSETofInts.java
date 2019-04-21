@@ -2,7 +2,7 @@ package Chapter1_4High;
 
 import java.util.Arrays;
 
-//exercise 1.4.21
+//Exercise 1.4.21
 public class StaticSETofInts {
     private int[] a;
     public StaticSETofInts(int[] keys){

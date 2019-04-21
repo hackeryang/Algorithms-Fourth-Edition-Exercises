@@ -1,6 +1,6 @@
 package Chapter1_4High;
 
-//exercise 1.4.20
+//Exercise 1.4.20
 public class BitonicSearch {
     public static int localMaximum(int[] x){
         if(x==null || x.length==0){

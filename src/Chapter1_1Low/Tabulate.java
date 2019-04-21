@@ -3,7 +3,7 @@ package Chapter1_1Low;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-//exercise 1.1.21
+//Exercise 1.1.21
 public class Tabulate {
     public static void main(String[] args){
         int M=3;

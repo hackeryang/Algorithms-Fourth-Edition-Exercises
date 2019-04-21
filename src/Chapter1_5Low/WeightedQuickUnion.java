@@ -1,6 +1,6 @@
 package Chapter1_5Low;
 
-//exercise 1.5.3
+//Exercise 1.5.3
 public class WeightedQuickUnion {
     private int[] id;
     private int[] sz; //树的深度

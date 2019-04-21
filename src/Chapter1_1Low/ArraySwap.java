@@ -1,6 +1,6 @@
 package Chapter1_1Low;
 
-//exercise 1.1.13
+//Exercise 1.1.13
 public class ArraySwap {  //矩阵转置
     public static void main(String[] args){
         int[][] a={{1,2,3},{4,5,6}};

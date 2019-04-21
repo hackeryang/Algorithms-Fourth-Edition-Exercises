@@ -1,6 +1,6 @@
 package Chapter1_1Low;
 
-//exercise 1.1.14
+//Exercise 1.1.14
 public class Lg {
     private static int lg(int N){
         int product=1;

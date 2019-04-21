@@ -2,7 +2,7 @@ package Chapter1_2High;
 
 import edu.princeton.cs.algs4.In;
 
-//exercise 1.2.15
+//Exercise 1.2.15
 public class ReadInts {
     public static int[] readInts(String name){
         In in=new In(name);

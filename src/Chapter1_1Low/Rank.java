@@ -1,6 +1,6 @@
 package Chapter1_1Low;
 
-//exercise 1.1.22
+//Exercise 1.1.22
 public class Rank {  //二分查找算法，每递归二分一次，输出就缩进一个空格
     public static int rank(int key,int[] a){
         return rank(key,a,0,16,1);

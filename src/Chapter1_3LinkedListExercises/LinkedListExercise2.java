@@ -1,6 +1,6 @@
 package Chapter1_3LinkedListExercises;
 
-//exercise 1.3.20
+//Exercise 1.3.20
 public class LinkedListExercise2<Item> {
     private static class Node<Item>{
         Node next;

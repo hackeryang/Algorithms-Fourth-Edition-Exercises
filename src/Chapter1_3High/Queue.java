@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 
-//exercise 1.3.47
+//Exercise 1.3.47
 public class Queue<Item> implements Iterable<Item> {
     private Node first;
     private Node last;

@@ -2,7 +2,7 @@ package Chapter1_1High;
 
 import edu.princeton.cs.algs4.StdOut;
 
-//exercise 1.1.33
+//Exercise 1.1.33
 public class Matrix {
     public static double dot(double[] x,double[] y){
         //向量点乘

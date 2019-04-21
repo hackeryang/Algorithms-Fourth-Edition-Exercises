@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.Shell;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-//exercise 2.1.22
+//Exercise 2.1.22
 public class SortTransactions {
     public static Transaction[] readTransactions(){
         //Exercise 1.3.17

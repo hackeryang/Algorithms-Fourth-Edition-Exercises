@@ -2,7 +2,7 @@ package Chapter1_4High;
 
 import java.util.Arrays;
 
-//exercise 1.4.16
+//Exercise 1.4.16
 public class ClosestPairFaster {
     public static void closestPairFaster(double[] x){
         double minNum=Double.MAX_VALUE;

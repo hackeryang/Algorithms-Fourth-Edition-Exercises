@@ -2,7 +2,7 @@ package Chapter1_1High;
 
 import java.util.Arrays;
 
-//exercise 1.1.28
+//Exercise 1.1.28
 public class DumplicateElements {
     public static int[] searchDumplicateElements(int[] array){
         int[] tempArray=new int[array.length];

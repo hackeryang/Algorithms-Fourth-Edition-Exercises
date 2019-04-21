@@ -2,7 +2,7 @@ package Chapter1_4High;
 
 import java.util.Arrays;
 
-//exercise 1.4.19
+//Exercise 1.4.19
 public class MatrixLocalMinimum {
     private static class IndexPath{
         int row;

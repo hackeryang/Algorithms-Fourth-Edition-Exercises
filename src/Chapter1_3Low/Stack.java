@@ -3,7 +3,7 @@ package Chapter1_3Low;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-//exercise 1.3.7
+//Exercise 1.3.7
 public class Stack<Item> {
     private int N;
     private Node first;

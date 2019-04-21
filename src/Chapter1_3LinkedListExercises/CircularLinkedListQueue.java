@@ -2,7 +2,7 @@ package Chapter1_3LinkedListExercises;
 
 import java.util.Iterator;
 
-//exercise 1.3.29
+//Exercise 1.3.29
 public class CircularLinkedListQueue<Item> implements Iterable<Item> {
     private class Node<Item>{
         Item item;

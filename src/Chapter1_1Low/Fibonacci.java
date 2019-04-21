@@ -2,7 +2,7 @@ package Chapter1_1Low;
 
 import edu.princeton.cs.algs4.StdOut;
 
-//exercise 1.1.19
+//Exercise 1.1.19
 public class Fibonacci {
 
     public static long F1(int N){

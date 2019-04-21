@@ -1,6 +1,6 @@
 package Chapter1_3Low;
 
-//exercise 1.3.14
+//Exercise 1.3.14
 public class ResizingArrayQueueOfStrings {
     private int N;
     private String[] items;

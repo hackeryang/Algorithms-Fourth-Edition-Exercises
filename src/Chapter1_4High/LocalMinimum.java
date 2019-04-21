@@ -1,6 +1,6 @@
 package Chapter1_4High;
 
-//exercise 1.4.18
+//Exercise 1.4.18
 public class LocalMinimum {
     public static int localMinimum(int[] x){
         if(x==null || x.length==0){

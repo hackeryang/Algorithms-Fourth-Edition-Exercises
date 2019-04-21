@@ -2,7 +2,7 @@ package Chapter1_3Low;
 
 import java.util.Iterator;
 
-//exercise 1.3.6
+//Exercise 1.3.6
 public class Queue<Item> implements Iterable<Item> {
     private int N;
     private class Node{

@@ -2,7 +2,7 @@ package Chapter1_1High;
 
 import java.util.Arrays;
 
-//exercise 1.1.30
+//Exercise 1.1.30
 public class ArrayExercise {
     /*
     * 求最大公约数

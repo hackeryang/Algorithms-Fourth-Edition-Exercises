@@ -2,7 +2,7 @@ package Chapter1_3High;
 
 import edu.princeton.cs.algs4.Stack;
 
-//exercise 1.3.42
+//Exercise 1.3.42
 public class CopiedStack {
     public static void main(String[] args){
         Stack<Integer> stack1=new Stack<>();

@@ -2,7 +2,7 @@ package Chapter1_3High;
 
 import java.util.Iterator;
 
-//exercise 1.3.32
+//Exercise 1.3.32
 public class Steque<Item> implements Iterable<Item> {
     private class Node{
         Node next;

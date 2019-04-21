@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 
-//exercise 1.1.23
+//Exercise 1.1.23
 public class BinarySearchWithParams {
     public static int rank(int key,int[] a){
         int lo=0;

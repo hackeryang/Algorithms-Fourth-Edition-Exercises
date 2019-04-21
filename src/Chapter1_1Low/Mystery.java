@@ -1,6 +1,6 @@
 package Chapter1_1Low;
 
-//exercise 1.1.18
+//Exercise 1.1.18
 public class Mystery {
     public static int mystery(int a,int b){
         if(b==0)
