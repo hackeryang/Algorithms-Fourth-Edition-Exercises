@@ -31,4 +31,41 @@ public class Graph {  //图的实现
         E++;
     }
     public Iterable<Integer> adj(int v){return adj[v];}  //返回和结点v相邻的所有结点
+
+    public static int degree(Graph G,int v){  //计算结点v的度数
+        int degree=0;
+        for(int w:G.adj(v)) degree++;  //结点v有一个邻接结点，度数就加1
+        return degree;
+    }
+
+    public static int maxDegree(Graph G){  //计算所有结点的最大度数
+        int max=0;  //保存最大度数的值
+        for(int v=0;v<G.V();v++)
+            if(degree(G,v)>max)  //遍历所有结点，如果有结点的度数比目前的最大值大，则覆盖最大值
+                max=degree(G,v);
+        return max;
+    }
+
+    public static double avgDegree(Graph G){return 2.0*G.E()/G.V();}  //计算所有结点的平均度数，前面乘以2是因为两个结点有一条互相连接的边，互相都有1的度数，相当于有向图中的两条边
+
+    public static int numberOfSelfLoops(Graph G){  //计算自环的个数
+        int count=0;
+        for(int v=0;v<G.V();v++)
+            for(int w:G.adj(v))  //遍历所有结点，如果有结点的邻接结点就是自己，次数加1
+                if(v==w) count++;
+        return count/2;  //每条边都被记过2次
+    }
+
+    @Override
+    public String toString() {
+        String s=V+" vertices, "+E+" edges\n";
+        for(int v=0;v<V;v++){  //遍历所有结点，每一行打印出每个结点的邻接结点
+            s+=v+": ";
+            for(int w:this.adj(v)){
+                s+=w+" ";
+            }
+            s+="\n";
+        }
+        return s;
+    }
 }
