@@ -5,8 +5,8 @@ import edu.princeton.cs.algs4.SET;
 import edu.princeton.cs.algs4.ST;
 import edu.princeton.cs.algs4.StdIn;
 
+//Exercise 3.5.20
 public class Concordance {
-    //Exercise 3.5.20
     private static final int CONTEXT=5;
 
     public static void main(String[] args){

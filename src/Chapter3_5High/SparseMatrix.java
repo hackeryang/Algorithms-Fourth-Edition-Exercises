@@ -1,5 +1,6 @@
 package Chapter3_5High;
 
+//Exercise 3.5.23
 public class SparseMatrix {
     private SparseVector[] rows;  //矩阵每行的向量
     private int n;  //向量的行数

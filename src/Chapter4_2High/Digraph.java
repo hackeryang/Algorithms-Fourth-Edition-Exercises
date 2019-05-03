@@ -41,6 +41,10 @@ public class Digraph {  //有向图的数据结构
         }
     }
 
+    public Digraph() {
+        V = 0;
+    }
+
     public int V(){return V;}  //返回图中结点总数
     public int E(){return E;}  //返回图中边的总数
 
