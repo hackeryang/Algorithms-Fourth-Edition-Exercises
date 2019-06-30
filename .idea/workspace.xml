@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8da7d3-849f-4789-87e1-2ffb52a12dcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_3High/KruskalMSF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_3High/PrimMSF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/CPM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/jobsPC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/rates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDAG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDnc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +39,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Algorithms(Fourth Edition) Exercises" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/PrimMSF.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="57" />
+            <state relative-caret-position="100">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,55 +57,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/KruskalMSF.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/PrimMST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-578">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="400">
+              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1150">
-              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="325">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2399#2413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-703">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,10 +100,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter1_5Text/UF.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="472">
+              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,30 +160,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/ClosestPairFaster.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/FastestPairLinear.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/FourSum.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/LocalMinimum.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/MatrixLocalMinimum.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_4High/ThreeSumFaster.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java" />
-        <option value="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_1High/SortTransactions.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2_1High/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_1Text/Graph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/DirectedDFS.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Chapter4_2Text/DepthFirstOrder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_2Text/Topological.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java" />
@@ -159,12 +184,33 @@
         <option value="$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_3High/PrimMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_3High/PrimForest.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_3High/KruskalForest.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_3High/KruskalMSF.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/Topological.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/jobsPC.txt" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/CPM.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java" />
       </list>
     </option>
   </component>
@@ -199,13 +245,25 @@
               <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4_3High" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4_3Text" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4_3Text" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4_4High" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4_4Low" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter4_4Text" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,27 +276,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554903986371" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter4_3High" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter4_4Text" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter4_4High" />
+      <recent name="Chapter4_4Low" />
+      <recent name="Chapter4_4Text" />
       <recent name="Chapter4_3Low" />
       <recent name="Chapter3_4Low" />
-      <recent name="Chapter3_2Low" />
-      <recent name="Chapter4_2High" />
-      <recent name="Chapter4_2Low" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_4Text" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_3High" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_3Text" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_2Text" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_1Low" />
-      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter3_5Text" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,12 +347,26 @@
       <workItem from="1558699340968" duration="3152000" />
       <workItem from="1558746192969" duration="12292000" />
       <workItem from="1558835655779" duration="198000" />
-      <workItem from="1558835910958" duration="2226000" />
+      <workItem from="1558835910958" duration="2290000" />
+      <workItem from="1560238311867" duration="3075000" />
+      <workItem from="1560303268064" duration="931000" />
+      <workItem from="1560304676048" duration="839000" />
+      <workItem from="1560581195707" duration="37000" />
+      <workItem from="1560581288146" duration="5834000" />
+      <workItem from="1560647854940" duration="9415000" />
+      <workItem from="1560755551727" duration="877000" />
+      <workItem from="1560822402973" duration="11745000" />
+      <workItem from="1560908655132" duration="3227000" />
+      <workItem from="1561441530638" duration="12759000" />
+      <workItem from="1561614295109" duration="13713000" />
+      <workItem from="1561771026985" duration="6617000" />
+      <workItem from="1561810462993" duration="6615000" />
+      <workItem from="1561857039783" duration="6004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185052000" />
+    <option name="totallyTimeSpent" value="266804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,25 +381,25 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10714286" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.122068234" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.108208954" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.108208954" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,244 +415,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_5High/California.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2_5High/LPT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1Low/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_1High/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_2Low/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-775">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_2Text/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2967">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_2Low/TestBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_2High/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3542">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_2Low/BST.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_3Text/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_3High/RedBlackBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4200">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_4Text/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_4Text/SeparateChainingHashST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_4Low/SeparateChainingHashST.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_4Text/LinearProbingHashST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-617">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_4Low/LinearProbingHashST.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_5High/SparseVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_5High/SparseMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2003">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3_5High/Concordance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Low/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2High/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/tinyEWG.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
-          <folding>
-            <element signature="e#6124#6125#0" expanded="true" />
-            <element signature="e#6165#6166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/mediumEWG.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/EdgeWeightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/LazyPrimMST.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/BreadthFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/Cycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/DegreesOfSeparation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -630,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/PrimMSF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -657,17 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="200">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -676,27 +496,321 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/PrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="250">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Text/UF.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="300">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1150">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="1225">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Text/UF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="101" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/Topological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/jobsPC.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDn.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDAG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/tinyEWD.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/CPM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="26" column="99" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/rates.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="113" selection-start-line="5" selection-start-column="113" selection-end-line="5" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding>
+            <element signature="e#3136#3137#0" expanded="true" />
+            <element signature="e#3171#3172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2399#2413#0" expanded="true" />
           </folding>
         </state>
       </provider>

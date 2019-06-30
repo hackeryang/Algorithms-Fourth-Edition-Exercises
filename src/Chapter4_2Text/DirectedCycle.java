@@ -28,7 +28,7 @@ public class DirectedCycle {  //在有向图中利用DFS寻找有向环
             }else if(onStack[w]){  //如果DFS路径上某个结点w之前被访问过，说明出现了环
                 cycle=new Stack<Integer>();
                 for(int x=v;x!=w;x=edgeTo[x])  //将环入口结点w的上一个结点v，到结点w的所有路径上结点都压入存放有向环结点的栈中
-                    cycle.push(x);  //栈中先放入的是当前结点的父节点，因为edgeTo[]数组放置的元素就是当前索引结点的上一个结点，这样最后栈顶层是环入口结点的上一个结点
+                    cycle.push(x);  //栈中先放入的是当前结点的父节点，因为edgeTo[]数组放置的元素就是当前索引结点的上一个结点，这样最后栈顶层是环入口结点的下一个结点
                 cycle.push(w);
                 cycle.push(v);
             }
