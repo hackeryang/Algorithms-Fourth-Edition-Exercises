@@ -2,32 +2,285 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8da7d3-849f-4789-87e1-2ffb52a12dcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/CPM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/jobsPC.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/rates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWD.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDAG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDnc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5_1Text/Alphabet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5_1Text/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter5_1Text/abra.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/ArrayExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/ArrayExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/BinomialSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/BinomialSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/DumplicateElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/DumplicateElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/EquivalentKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/EquivalentKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/RSAExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/RSAExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1High/RandomConnectSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1High/RandomConnectSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/ArraySwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/ArraySwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Between0And1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Between0And1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/BinarySearchWithParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/BinarySearchWithParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/BooleanArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/BooleanArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/DecimalToBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Euclid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Euclid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Lg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Lg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Logarithmic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Logarithmic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Mystery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Mystery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Practice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/PrintValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/PrintValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/RandomSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/RandomSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Low/Tabulate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Low/Tabulate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Text/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Text/Average.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Text/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Text/Shuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Text/Shuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Text/SqrtNewton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Text/SqrtNewton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_1Text/SwapArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_1Text/SwapArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2High/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2High/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2High/ReadInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2High/ReadInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2High/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2High/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/BinarySearchCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/BinarySearchCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/ClassicString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/ClassicString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Interval1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Interval1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Interval2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Interval2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/SmartDate2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Low/VisualCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Low/VisualCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Accumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Accumulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Flips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Flips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/FlipsMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/FlipsMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Interval2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Interval2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Rolls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Rolls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/StaticSETofInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/StaticSETofInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/TestAccumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/TestAccumulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_2Text/Whitelist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_2Text/Whitelist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/CopiedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/CopiedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/GeneralizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/GeneralizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RandomBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RandomBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueueIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RandomQueueIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/ResizingArrayDeque2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/RingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/RingBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3High/Steque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3High/Steque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/CircularLinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/CircularLinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3LinkedListExercises/LinkedListExercise8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Date1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Date1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/DoublingStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/DoublingStackOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/EvaluatePostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/EvaluatePostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/FixedCapacityStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/FixedCapacityStackOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/InfixToPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Parentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/QueueExercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/QueueExercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/ResizingArrayQueueOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/ResizingArrayQueueOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Stack2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Stack2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Low/Transaction1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Low/Transaction1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/Evaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/Evaluate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/FixedCapacityStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/FixedCapacityStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/FixedCapacityStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/FixedCapacityStackOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/ResizingArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/ResizingArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_3Text/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_3Text/Stats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/BitonicSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/BitonicSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/ClosestPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/ClosestPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/ClosestPairFaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/ClosestPairFaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FastestPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FastestPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FastestPairLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FastestPairLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FibonacciSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/FractionBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/LocalMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/LocalMinimum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/MatrixLocalMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/MatrixLocalMinimum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/QueueWithTwoStacksFaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/StaticSETofInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/ThreeSumFaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/ThreeSumFaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4High/TwoSumFaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4High/TwoSumFaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/Accumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/Accumulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/DoublingTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/SameElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/SameElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/StaticSETofInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/StaticSETofInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/ThreeSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSameFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Low/TwoSameFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/DoublingRatio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/DoublingRatio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/DoublingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/DoublingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/InputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/InputTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/InputTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/TestBufferedReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/TestBufferedReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/TestScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/ThreeSumFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/ThreeSumFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_4Text/TwoSumFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_4Text/TwoSumFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickFindUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/QuickUnionUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Low/WeightedQuickUnionUFSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Text/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Text/UF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1_5Text/WeightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1_5Text/WeightedQuickUnionUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1High/SortTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1High/SortTransactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1High/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1High/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1Text/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1Text/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1Text/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1Text/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1Text/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1Text/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1Text/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1Text/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1Text/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1Text/Shell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_1Text/SoftCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_1Text/SoftCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2High/IndirectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2High/IndirectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2High/QuickMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2High/QuickMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2High/QuickerMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2High/QuickerMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2High/ReverseTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2High/ReverseTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2Low/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2Low/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2Text/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2Text/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_2Text/MergeBU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_2Text/MergeBU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_3High/BestCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_3High/BestCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_3High/Quick3WayPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_3High/Quick3WayPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_3Low/TwoKeysSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_3Low/TwoKeysSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_3Text/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_3Text/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_3Text/Quick3way.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4High/CubeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4High/CubeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4High/MaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4High/MaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4Low/OrderedArrayMaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4Low/OrderedArrayMaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4Low/UnorderedArrayMaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4Low/UnorderedArrayMaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4Text/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4Text/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4Text/MaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4Text/MaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4Text/Multiway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4Text/Multiway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_4Text/TopM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_4Text/TopM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/California.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/California.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/Domain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/Domain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/FileSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/KendallTau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/KendallTau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/LPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/LPT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/SPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/SPT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5High/StablePQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5High/StablePQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5Low/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5Low/Frequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5Low/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5Low/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5Text/KthSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5Text/KthSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter2_5Text/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter2_5Text/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1High/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1High/BinarySearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1High/TestBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1High/TestBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Low/ArrayST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Low/ArrayST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Low/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Low/BinarySearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Low/ScoreST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Low/ScoreST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Low/SequentialSearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Low/SequentialSearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Text/BinarySearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Text/FrequencyCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Text/FrequencyCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Text/SequentialSearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Text/SequentialSearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_1Text/SymbolTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_1Text/SymbolTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_2High/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_2High/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_2High/EnhancedBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_2High/EnhancedBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_2Low/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_2Low/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_2Low/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_2Low/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_2Low/TestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_2Low/TestBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_2Text/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_2Text/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_3High/RedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_3High/RedBlackBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_3Low/TestRB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_3Low/TestRB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_3Text/RedBlackBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_3Text/RedBlackBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_4Low/LinearProbingHashST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_4Low/LinearProbingHashST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_4Low/SeparateChainingHashST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_4Low/SeparateChainingHashST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_4Text/LinearProbingHashST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_4Text/LinearProbingHashST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_4Text/SeparateChainingHashST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_4Text/SeparateChainingHashST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_4Text/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_4Text/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5High/Concordance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5High/Concordance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5High/SparseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5High/SparseMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5High/SparseVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5High/SparseVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5Text/BlackFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5Text/BlackFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5Text/DeDup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5Text/DeDup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5Text/FileIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5Text/FileIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5Text/LookupCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5Text/LookupCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5Text/LookupIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5Text/LookupIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5Text/SparseVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5Text/SparseVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter3_5Text/WhiteFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3_5Text/WhiteFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1High/EdgeConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1High/EdgeConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Low/BaconHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Low/BaconHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Low/BreadthFirstPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Low/BreadthFirstPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Low/DegreesOfSeparationDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Low/DegreesOfSeparationDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Low/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Low/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/BreadthFirstPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/BreadthFirstPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/CC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/CC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/Cycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/DegreesOfSeparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/DegreesOfSeparation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/SymbolGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/SymbolGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/TestSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_1Text/TwoColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_1Text/TwoColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2High/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2High/Digraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2High/Euler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2High/Euler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2High/QueueTopologySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2High/QueueTopologySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2High/SymbolDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2High/SymbolDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Low/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Low/Digraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/DepthFirstOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/DepthFirstOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/DirectedDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/DirectedDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/Topological.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/Topological.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3High/KruskalMSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3High/KruskalMSF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3High/LazyPrimMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3High/LazyPrimMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3High/PrimMSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3High/PrimMSF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3High/PrimMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3High/PrimMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3Text/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3Text/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3Text/EdgeWeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3Text/EdgeWeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_3Text/PrimMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_3Text/PrimMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/CPM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/CPM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,56 +297,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter5_1Text/Count.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="375">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2399#2413#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter5_1Text/abra.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-128">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter5_1Text/Alphabet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-703">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="650">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,22 +349,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="54" />
+            <state relative-caret-position="100">
+              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="72" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="625">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,8 +381,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="608">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="61" />
+              <folding>
+                <element signature="e#1855#1856#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,10 +393,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="60" />
+            <state relative-caret-position="125">
+              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1393#1394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,57 +433,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/DepthFirstOrder.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/Topological.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Low/Digraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2High/Euler.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2High/SymbolDigraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2High/QueueTopologySort.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_2Low/BST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_4Low/SeparateChainingHashST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_4Low/LinearProbingHashST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_5High/SparseMatrix.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3_5High/Concordance.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2High/Digraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Text/Edge.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Text/EdgeWeightedGraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Text/PrimMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3High/PrimMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3High/PrimForest.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3High/KruskalForest.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3High/KruskalMSF.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/Topological.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DirectedCycle.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_4Text/jobsPC.txt" />
         <option value="$PROJECT_DIR$/src/Chapter4_4Text/CPM.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java" />
+        <option value="$PROJECT_DIR$/src/Chapter5_1Text/Alphabet.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3_2Text/BST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3_2Low/BST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3_4Low/SeparateChainingHashST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3_4Text/SeparateChainingHashST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Low/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Low/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Text/BreadthFirstPaths.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Text/CC.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Text/Cycle.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Text/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Text/SymbolGraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_1Text/TwoColor.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2High/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2High/Euler.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2High/SymbolDigraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Low/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/DirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/Topological.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3High/LazyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3Text/Edge.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3Text/EdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java" />
         <option value="$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java" />
-        <option value="$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java" />
+        <option value="$PROJECT_DIR$/src/Chapter5_1Text/Count.java" />
       </list>
     </option>
   </component>
@@ -227,8 +500,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,18 +516,6 @@
               <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4_3Text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4_4High" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter4_4Low" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,10 +524,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter4_4Text" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithms(Fourth Edition) Exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms(Fourth Edition) Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5_1Text" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,12 +543,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554903986371" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter4_4Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter5_1Text" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -292,11 +559,11 @@
       <recent name="Chapter3_4Low" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter5_1Text" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_4Text" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_3High" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_3Text" />
       <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_2Text" />
-      <recent name="F:\JavaWorks\Algorithms(Fourth Edition) Exercises\src\Chapter4_1Low" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,12 +628,14 @@
       <workItem from="1561614295109" duration="13713000" />
       <workItem from="1561771026985" duration="6617000" />
       <workItem from="1561810462993" duration="6615000" />
-      <workItem from="1561857039783" duration="6004000" />
+      <workItem from="1561857039783" duration="6809000" />
+      <workItem from="1562400045818" duration="9827000" />
+      <workItem from="1562504849360" duration="4854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266804000" />
+    <option name="totallyTimeSpent" value="282290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,7 +650,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.122068234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.124200426" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.108208954" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,7 +658,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.108208954" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -415,402 +684,570 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/DegreesOfSeparation.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding>
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/SymbolGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/TestSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstPaths.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/TwoColor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="625">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/DepthFirstSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2High/Digraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-3">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding>
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2High/Euler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="69" column="5" selection-start-line="60" selection-start-column="9" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="347">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/PrimMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/CC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_1Text/CC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/PrimMSF.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2High/QueueTopologySort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="57" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2High/SymbolDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Low/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="46" />
+          <folding>
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/Topological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928">
+          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/KruskalMSF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/KruskalMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="-853">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/PrimMST.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/LazyPrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="422">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/PrimMSF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="-628">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/BoruvkaMST.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3High/PrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="-778">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/Digraph.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="-525">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/EdgeWeightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/EdgeWeightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="53" column="54" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Low/PrimMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter1_5Text/UF.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/KosarajuSCC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/SymbolDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/TransitiveClosure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/DirectedCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="101" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/Topological.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_2Text/DepthFirstOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/jobsPC.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDn.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/tinyEWDAG.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/tinyEWD.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/CPM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="26" column="99" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/Bag.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/KruskalMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/rates.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="113" selection-start-line="5" selection-start-column="113" selection-end-line="5" selection-end-column="113" />
+        <state relative-caret-position="800">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/LazyPrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="425">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/书籍/algs4.jar!/edu/princeton/cs/algs4/MinPQ.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_3Text/PrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+        <state relative-caret-position="-525">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/AcyclicLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="72" />
           <folding>
-            <element signature="e#3136#3137#0" expanded="true" />
-            <element signature="e#3171#3172#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4_4High/LazyDijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="-53">
+          <caret line="64" column="52" lean-forward="true" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+          <folding>
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedCycleFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="61" />
+          <folding>
+            <element signature="e#1933#1934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Low/EdgeWeightedTopological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="72" />
+          <folding>
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/AcyclicSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="72" />
+          <folding>
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/Arbitrage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/BellmanFordSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+          <folding>
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#2647#2648#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2740#2741#0" expanded="true" />
+            <element signature="e#2794#2795#0" expanded="true" />
+            <element signature="e#2826#2827#0" expanded="true" />
+            <element signature="e#2884#2885#0" expanded="true" />
+            <element signature="e#2943#2944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/CPM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraAllPairsSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DijkstraSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="72" />
+          <folding>
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/DirectedEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedCycleFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="e#1855#1856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="63" />
+          <folding>
+            <element signature="e#1393#1394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4_4Text/EdgeWeightedTopological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter5_1Text/Alphabet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter5_1Text/abra.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter5_1Text/Count.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2399#2413#0" expanded="true" />
           </folding>
         </state>
       </provider>

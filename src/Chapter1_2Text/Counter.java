@@ -2,7 +2,7 @@ package Chapter1_2Text;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class Counter{
+public class Counter {
     private final String name;
     public int count;
 

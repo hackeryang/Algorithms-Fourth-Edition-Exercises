@@ -9,78 +9,90 @@ public class RandomQueue<Item> implements Iterable<Item> {
     private Item[] a;
     private int N;
 
-    public RandomQueue(){
-        a=(Item[])(new Object[1]);
-        N=0;
+    public RandomQueue() {
+        a = (Item[]) (new Object[1]);
+        N = 0;
     }
-    public boolean isEmpty(){
-        return N==0;
+
+    public boolean isEmpty() {
+        return N == 0;
     }
-    public int size(){
+
+    public int size() {
         return N;
     }
-    public void enqueue(Item x){
-        if(N==a.length){
-            this.resize(a.length*2);
+
+    public void enqueue(Item x) {
+        if (N == a.length) {
+            this.resize(a.length * 2);
         }
-        a[N++]=x;
+        a[N++] = x;
     }
-    public Item dequeue(){
-        if(this.isEmpty()){
+
+    public Item dequeue() {
+        if (this.isEmpty()) {
             return null;
         }
-        if(N==a.length/4){
-            resize(a.length/2);
+        if (N == a.length / 4) {
+            resize(a.length / 2);
         }
-        int index= StdRandom.uniform(N);
-        Item x=a[index];
-        a[index]=a[--N];
-        a[N]=null;
+        int index = StdRandom.uniform(N);
+        Item x = a[index];
+        a[index] = a[--N];
+        a[N] = null;
         return x;
     }
-    public void resize(int max){
-        Item[] temp=(Item[])new Object[max];
-        for(int i=0;i<N;i++){
-            temp[i]=a[i];
+
+    public void resize(int max) {
+        Item[] temp = (Item[]) new Object[max];
+        for (int i = 0; i < N; i++) {
+            temp[i] = a[i];
         }
-        a=temp;
+        a = temp;
     }
-    public Item sample(){
-        if(this.isEmpty()){
+
+    public Item sample() {
+        if (this.isEmpty()) {
             return null;
         }
-        int index=StdRandom.uniform(N);
+        int index = StdRandom.uniform(N);
         return a[index];
     }
-    public Iterator<Item> iterator(){
+
+    public Iterator<Item> iterator() {
         return new RandomQueueIterator();
     }
-    public class RandomQueueIterator implements Iterator<Item>{
+
+    public class RandomQueueIterator implements Iterator<Item> {
         private Item[] temp;
         private int index;
 
-        public RandomQueueIterator(){
-            temp=(Item[])new Object[N];
-            for(int i=0;i<N;i++)
-                temp[i]=a[i];
+        public RandomQueueIterator() {
+            temp = (Item[]) new Object[N];
+            for (int i = 0; i < N; i++)
+                temp[i] = a[i];
             StdRandom.shuffle(temp);
-            index=0;
+            index = 0;
         }
-        public boolean hasNext(){
-            return index<N;
+
+        public boolean hasNext() {
+            return index < N;
         }
-        public Item next(){
+
+        public Item next() {
             return temp[index++];
         }
-        public void remove(){
+
+        public void remove() {
 
         }
     }
-    public static void main(String[] args){
-        RandomQueue<Integer> queue=new RandomQueue<Integer>();
-        for(int i=1;i<=52;i++)
+
+    public static void main(String[] args) {
+        RandomQueue<Integer> queue = new RandomQueue<Integer>();
+        for (int i = 1; i <= 52; i++)
             queue.enqueue(i);
-        for(Object object:queue){
+        for (Object object : queue) {
             System.out.println(object);
         }
     }

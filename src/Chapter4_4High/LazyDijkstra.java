@@ -19,52 +19,58 @@ public class LazyDijkstra {  //Dijkstra算法的延时实现
     private class ByDistanceFromSource implements Comparator<DirectedEdge> {  //自定义一个有向权重边的比较器
         @Override
         public int compare(DirectedEdge e, DirectedEdge f) {  //比较起点开始直到边e和边f的权重
-            double dist1=distTo[e.from()]+e.weight();
-            double dist2=distTo[f.from()]+f.weight();
-            return Double.compare(dist1,dist2);
+            double dist1 = distTo[e.from()] + e.weight();
+            double dist2 = distTo[f.from()] + f.weight();
+            return Double.compare(dist1, dist2);
         }
     }
 
-    public LazyDijkstra(EdgeWeightedDigraph G,int s){
-        marked=new boolean[G.V()];
-        edgeTo=new DirectedEdge[G.V()];
-        distTo=new double[G.V()];
-        pq=new MinPQ<>(new ByDistanceFromSource());  //最小优先队列中使用自定义的比较器
+    public LazyDijkstra(EdgeWeightedDigraph G, int s) {
+        marked = new boolean[G.V()];
+        edgeTo = new DirectedEdge[G.V()];
+        distTo = new double[G.V()];
+        pq = new MinPQ<>(new ByDistanceFromSource());  //最小优先队列中使用自定义的比较器
 
-        for(int v=0;v<G.V();v++){  //将从起点s到所有结点的距离都初始化为无穷大
-            distTo[v]=Double.POSITIVE_INFINITY;
+        for (int v = 0; v < G.V(); v++) {  //将从起点s到所有结点的距离都初始化为无穷大
+            distTo[v] = Double.POSITIVE_INFINITY;
         }
-        distTo[s]=0.0;  //起点到自己的距离为0
-        relax(G,s);
-        while(!pq.isEmpty()){
-            int w=pq.delMin().to();  //从最小优先队列中得到权重最小的边，不断放松该边指向的结点
-            if(!marked[w]){  //放松还未放松过的结点
-                relax(G,w);
+        distTo[s] = 0.0;  //起点到自己的距离为0
+        relax(G, s);
+        while (!pq.isEmpty()) {
+            int w = pq.delMin().to();  //从最小优先队列中得到权重最小的边，不断放松该边指向的结点
+            if (!marked[w]) {  //放松还未放松过的结点
+                relax(G, w);
             }
         }
     }
+
     //边的松弛，就像橡皮筋的两端如果靠近，就会变松，两端拉远就会紧绷，所以意思就是选择两个结点间的更短路径
-    private void relax(EdgeWeightedDigraph G,int v){
-        marked[v]=true;  //标记结点v（即放入最短路径树中）
-        for(DirectedEdge e:G.adj(v)){  //放松从一个给定结点指出的所有边
-            int w=e.to();  //找到v指出的一条边所指向的结点
-            if(distTo[w]>distTo[v]+e.weight()){  //如果从s到w的距离大于从s到v的距离加上v到w的距离之和，则更新更短路径，如果这个和的值不小于distTo[w]，则边e失效并被忽略，跳过一轮循环
-                distTo[w]=distTo[v]+e.weight();
-                edgeTo[w]=e;
+    private void relax(EdgeWeightedDigraph G, int v) {
+        marked[v] = true;  //标记结点v（即放入最短路径树中）
+        for (DirectedEdge e : G.adj(v)) {  //放松从一个给定结点指出的所有边
+            int w = e.to();  //找到v指出的一条边所指向的结点
+            if (distTo[w] > distTo[v] + e.weight()) {  //如果从s到w的距离大于从s到v的距离加上v到w的距离之和，则更新更短路径，如果这个和的值不小于distTo[w]，则边e失效并被忽略，跳过一轮循环
+                distTo[w] = distTo[v] + e.weight();
+                edgeTo[w] = e;
                 pq.insert(e);  //对于该最短边指向的结点w，起点s到达w接下来指向的结点的最短路径距离也会因为这条边而变化，所以需要把这条边放入最小优先队列，以后取出再放松w指向的结点
             }
         }
     }
 
-    public double distTo(int v){return distTo[v];}  //返回从起点通往结点v的路径距离
-    public boolean hasPathTo(int v){return distTo[v]<Double.POSITIVE_INFINITY;}  //是否有通往结点v的路径，即判断从起点到v的路径距离是否是有限值
+    public double distTo(int v) {  //返回从起点通往结点v的路径距离
+        return distTo[v];
+    }
 
-    public Iterable<DirectedEdge> pathTo(int v){  //从起点s到结点v的路径，如果不存在则为null
-        if(!hasPathTo(v)){
+    public boolean hasPathTo(int v) {  //是否有通往结点v的路径，即判断从起点到v的路径距离是否是有限值
+        return distTo[v] < Double.POSITIVE_INFINITY;
+    }
+
+    public Iterable<DirectedEdge> pathTo(int v) {  //从起点s到结点v的路径，如果不存在则为null
+        if (!hasPathTo(v)) {
             return null;
         }
-        Stack<DirectedEdge> path=new Stack<DirectedEdge>();
-        for(DirectedEdge e=edgeTo[v];e!=null;e=edgeTo[e.from()]){  //从指向结点v的那条边开始，不断回退到指向父结点的边，最终回退到起点s指出的有向边
+        Stack<DirectedEdge> path = new Stack<DirectedEdge>();
+        for (DirectedEdge e = edgeTo[v]; e != null; e = edgeTo[e.from()]) {  //从指向结点v的那条边开始，不断回退到指向父结点的边，最终回退到起点s指出的有向边
             path.push(e);  //将不断回退的有向边加入栈中，这样栈中路径按照相反顺序弹出后，就是正序的从起点s到结点v的路径
         }
         return path;

@@ -13,10 +13,10 @@ public class Main {
         String[] str = line.split(" ");
         n = Integer.parseInt(str[0]);
         k = Integer.parseInt(str[1]);
-        if( n >= 1 && n <= 100000 && k >=0 && k <= n-1){
-            for(int x = k; x <= n; x++ ){
-                for(int y =1; y <= n; y++ ){
-                    if((x % y) >= k)
+        if (n >= 1 && n <= 100000 && k >= 0 && k <= n - 1) {
+            for (int x = k; x <= n; x++) {
+                for (int y = 1; y <= n; y++) {
+                    if ((x % y) >= k)
                         count++;
                 }
             }

@@ -5,9 +5,9 @@ public class Transaction {
     private String who;
     private double amount;
 
-    public class Date{
-        private  int year;
-        private  int month;
-        private  int day;
+    public class Date {
+        private int year;
+        private int month;
+        private int day;
     }
 }

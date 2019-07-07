@@ -6,21 +6,22 @@ import java.util.Arrays;
 
 //Exercise 1.4.8
 public class TwoSameFast {
-    public static int twoSameFast(long[] a){
-        int cnt=0;
-        for(int i=0;i<a.length-1;i++){
-            if(a[i]==a[i+1]){
+    public static int twoSameFast(long[] a) {
+        int cnt = 0;
+        for (int i = 0; i < a.length - 1; i++) {
+            if (a[i] == a[i + 1]) {
                 cnt++;
             }
         }
         return cnt;
     }
-    public static void main(String[] args){
-        String filePathString=System.getProperty("user.dir");
-        String intFileString=filePathString+"/src/1Kints.txt";
-        In in=new In(intFileString);
-        long[] a=in.readAllLongs();
+
+    public static void main(String[] args) {
+        String filePathString = System.getProperty("user.dir");
+        String intFileString = filePathString + "/src/1Kints.txt";
+        In in = new In(intFileString);
+        long[] a = in.readAllLongs();
         Arrays.sort(a);
-        System.out.println("相同的整数的数量为："+twoSameFast(a));
+        System.out.println("相同的整数的数量为：" + twoSameFast(a));
     }
 }
